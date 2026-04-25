@@ -37,7 +37,7 @@ services:
       - REDIS_URL=redis://redis:6379/0
       - SECRET_KEY=docker-secret-key-replace-in-prod
       - DEBUG=True
-      - CORS_ALLOWED_ORIGINS=http://localhost:3000,http://localhost:8080,http://localhost:5173
+      - CORS_ALLOWED_ORIGINS=http://localhost:3000,http://localhost:8080,http://localhost:5173,https://xjrf6b92-5173.inc1.devtunnels.ms,http://localhost:54948
       - SCHOOL_NAME=Eduverse Africa
     depends_on:
       - db

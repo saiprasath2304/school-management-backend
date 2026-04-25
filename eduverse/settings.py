@@ -134,7 +134,7 @@ from corsheaders.defaults import default_headers
 
 CORS_ALLOWED_ORIGINS = config(
     "CORS_ALLOWED_ORIGINS",
-    default="http://localhost:3000,http://localhost:8080,http://localhost:5173",
+    default="http://localhost:3000,http://localhost:8080,http://localhost:5173,https://xjrf6b92-5173.inc1.devtunnels.ms,http://localhost:54948",
 ).split(",")
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = list(default_headers) + [
